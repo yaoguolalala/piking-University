@@ -1,0 +1,238 @@
+*{
+    margin:0;
+    padding:0;
+    vertical-align: middle;
+}
+.header{
+    width: 100%;
+    height: 210px;
+}
+.topnav{
+    width: 100%;
+    height:35px;
+    background-color: #700005;
+}
+.flf{
+    float: left;
+}
+.frh{
+    float:right;
+}
+.topnav>ul{
+    list-style: none;
+}
+.top_left>li,.top_right>li{
+    float: left;
+    padding:10px 7px;
+}
+.top_left{
+    margin-left: 150px;
+}
+.top_right{
+    margin-right: 90px;
+}
+.top_left>li>a,
+.top_right>li>a{
+    color: mistyrose;
+    text-decoration: none;
+    font-family: 幼圆;
+    font-size: 16px;
+}
+.top_left>li>a:hover,
+.top_right>li>a:hover{
+    color: white;
+}
+
+.neck{
+    position: relative;
+    background-color: #8e000b;
+    width: 100%;
+    height: 170px;
+}
+.neck .logo{
+    position: absolute;
+    top: 30px;
+    left: 160px;
+    width: 300px;
+    height: 100px;
+    clear: both;
+}
+.neck>.logo img{
+    width: 200px;
+}
+.neck_nav{
+    width: 100%;
+    position: absolute;
+    top: 130px;
+    background-color: white;
+}
+.neck_nav li{
+    margin-top:10px;
+    float: left;
+}
+.neck_nav .navlist{
+    margin: 0px auto;
+    width:850px;
+    height: 40px;
+    list-style: none;
+}
+.navlist>li>a{
+    padding:18px 20px;
+    text-decoration: none;
+    font-family: 黑体;
+    font-size: 16px;
+    color: #000;
+}
+.navlist>li>a:hover{
+    -webkit-transition: 300ms time;
+    -moz-transition: 300ms time;
+    -ms-transition: 300ms time;
+    -o-transition: 300ms time;
+    transition: 300ms time;
+    background-color: #8e000b;
+    color: #ffffff;
+}
+.ultimatepic{
+    position: relative;
+}
+.ultimatepic .post{
+    clear: both;
+    width: 100%;
+    height:460px;
+    background-color: wheat;
+}
+.ultimatepic .post .postpic{
+    margin-left: -1310px;
+    width: 12784px;
+    height: 400px;
+    background-color: #fff;
+}
+.ultimatepic .post .postpic>li{
+    float: left;
+}
+.ultimatepic .post .postpic img{
+    width: 1380px;
+    height: 460px;
+}
+.btn-item{
+    margin-top: 3px;
+    margin-left: 21px;
+    padding: 4px 4px;
+    float: left;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: dimgrey;
+}
+.swich{
+    height: 25px;
+    width: 240px;
+    top: 435px;
+    left: 640px;
+    position: absolute;
+    background:rgba(0,0,0,0);
+}
+.swichbtn{
+    list-style: none;
+}
+.contain{
+    overflow: hidden;
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: wheat;
+}
+.news{
+    margin-top: 20px;
+    width: 100%;
+    height: 450px;
+    background: white;
+}
+.news .newstext{
+    width: 30%;
+    height: 260px;
+    background: white;
+}
+.blocktitle{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 黑体;
+    color: #000000;
+    line-height: 40px;
+
+}
+.cutline{
+    height: 3px;
+    background-color: #8e000b;
+    border: 0;
+}
+.newsbox{
+    margin-top: 10px;
+    width: 100%;
+    background-color: white;
+}
+.newsbox div:nth-of-type(2){
+    margin: 0 50px;
+}
+.newstext{
+    float: left;
+}
+.newstext>.newsPiclink{
+    display: inline-block;
+    width: 300px;
+}
+.newstext>a>img{
+    display: block;
+    width: 300px;
+}
+.simpleNews{
+    font-family: 黑体;
+    font-weight: lighter;
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    line-height: 40px;
+}
+.newsbox div:nth-child(1)>p{
+    color: dimgrey;
+    line-height: 18px;
+    font-size: 12px;
+}
+.newsbox div:nth-child(2)>a,
+.newsbox div:nth-child(3)>a{
+    display: block;
+    font-family: 黑体;
+    font-weight: lighter;
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.newsbox .newstext a:hover {
+    color: #8e000b;
+}
+.notice{
+    margin-top: 30px;
+    margin-right: 30px;
+    float: right;
+    background-color: white;
+}
+.notice a{
+    color: #000;
+    display: inline-block;
+    font-family: 黑体;
+    font-weight: lighter;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 25px;
+}
+.notice a:nth-child(1){
+    margin-right: 20px;
+}
+.notice a:hover{
+    color: #8e000b;
+    text-decoration: underline;
+}
+
+
