@@ -138,14 +138,14 @@
 .contain{
     overflow: hidden;
     width: 1000px;
-    height: 800px;
+    height: 100%;
     margin: 0 auto;
-    background-color: wheat;
+    background-color: white;
 }
 .news{
     margin-top: 20px;
     width: 100%;
-    height: 450px;
+    height: 380px;
     background: white;
 }
 .news .newstext{
